@@ -22,6 +22,7 @@
 		D89E56D71951A53A00192495 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D89E56D51951A53A00192495 /* InfoPlist.strings */; };
 		D89E56D91951A53A00192495 /* ProgressDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D89E56D81951A53A00192495 /* ProgressDemoTests.m */; };
 		D89E56E41951A54E00192495 /* BSProgressSpeedIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = D89E56E31951A54E00192495 /* BSProgressSpeedIndicator.m */; };
+		D89E56E71951B16A00192495 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D89E56E61951B16A00192495 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		D89E56D81951A53A00192495 /* ProgressDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressDemoTests.m; sourceTree = "<group>"; };
 		D89E56E21951A54E00192495 /* BSProgressSpeedIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSProgressSpeedIndicator.h; sourceTree = "<group>"; };
 		D89E56E31951A54E00192495 /* BSProgressSpeedIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSProgressSpeedIndicator.m; sourceTree = "<group>"; };
+		D89E56E61951B16A00192495 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		D89E56A11951A53A00192495 = {
 			isa = PBXGroup;
 			children = (
+				D89E56E61951B16A00192495 /* README.md */,
 				D89E56B31951A53A00192495 /* ProgressDemo */,
 				D89E56D21951A53A00192495 /* ProgressDemoTests */,
 				D89E56AC1951A53A00192495 /* Frameworks */,
@@ -244,6 +247,7 @@
 			files = (
 				D89E56C61951A53A00192495 /* Images.xcassets in Resources */,
 				D89E56B81951A53A00192495 /* InfoPlist.strings in Resources */,
+				D89E56E71951B16A00192495 /* README.md in Resources */,
 				D89E56C11951A53A00192495 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +475,7 @@
 				D89E56DE1951A53A00192495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D89E56DF1951A53A00192495 /* Build configuration list for PBXNativeTarget "ProgressDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +484,7 @@
 				D89E56E11951A53A00192495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
