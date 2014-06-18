@@ -1,7 +1,7 @@
 BSProgressSpeedIndicator
 ========================
 
-![demo1](https://raw.github.com/shtefane/BSProgressSpeedIndicator/master/Screen/demo.png)
+![demo](https://raw.github.com/shtefane/BSProgressSpeedIndicator/master/Screen/demo.png)
 
 iOS
 Circular progress view like car speedometers
