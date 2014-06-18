@@ -17,7 +17,6 @@
     CGFloat radiusDelta;
 }
 
-
 @property (nonatomic, strong) NSMutableArray *linesViews;
 @property  CGFloat radius;
 
