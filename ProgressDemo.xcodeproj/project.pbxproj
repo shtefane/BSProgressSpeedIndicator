@@ -23,6 +23,7 @@
 		D89E56D91951A53A00192495 /* ProgressDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D89E56D81951A53A00192495 /* ProgressDemoTests.m */; };
 		D89E56E41951A54E00192495 /* BSProgressSpeedIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = D89E56E31951A54E00192495 /* BSProgressSpeedIndicator.m */; };
 		D89E56E71951B16A00192495 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D89E56E61951B16A00192495 /* README.md */; };
+		D89E56EA1951B2B500192495 /* demo1.png in Resources */ = {isa = PBXBuildFile; fileRef = D89E56E91951B2B500192495 /* demo1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		D89E56E21951A54E00192495 /* BSProgressSpeedIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSProgressSpeedIndicator.h; sourceTree = "<group>"; };
 		D89E56E31951A54E00192495 /* BSProgressSpeedIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSProgressSpeedIndicator.m; sourceTree = "<group>"; };
 		D89E56E61951B16A00192495 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		D89E56E91951B2B500192495 /* demo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		D89E56A11951A53A00192495 = {
 			isa = PBXGroup;
 			children = (
+				D89E56E81951B2B500192495 /* Screen */,
 				D89E56E61951B16A00192495 /* README.md */,
 				D89E56B31951A53A00192495 /* ProgressDemo */,
 				D89E56D21951A53A00192495 /* ProgressDemoTests */,
@@ -166,6 +169,14 @@
 				D89E56E31951A54E00192495 /* BSProgressSpeedIndicator.m */,
 			);
 			name = ProgressIndicator;
+			sourceTree = "<group>";
+		};
+		D89E56E81951B2B500192495 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				D89E56E91951B2B500192495 /* demo1.png */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +260,7 @@
 				D89E56B81951A53A00192495 /* InfoPlist.strings in Resources */,
 				D89E56E71951B16A00192495 /* README.md in Resources */,
 				D89E56C11951A53A00192495 /* Main.storyboard in Resources */,
+				D89E56EA1951B2B500192495 /* demo1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
